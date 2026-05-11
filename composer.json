@@ -1,13 +1,13 @@
 {
-    "name": "vendor/system-core",
+    "name": "mhshagor/system-core",
     "description": "Simple global middleware for Laravel",
     "type": "library",
     "license": "proprietary",
     "keywords": ["laravel", "middleware"],
     "authors": [
         {
-            "name": "System Core Team",
-            "email": "core@example.com"
+            "name": "M. H Shagor",
+            "email": "srq001100@gmail.com"
         }
     ],
     "require": {
