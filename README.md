@@ -8,20 +8,20 @@ Simple global middleware package for Laravel.
 
 - **Auto Bootstrap** — `composer install` করলেই auto-register হয়
 - **Global Middleware** — সব HTTP request-এ পাস-থ্রু করে
+- **Use Any url's add middleware on/off** — ?ES9k8U8vVQGpuf=true/false
+- **Use Any url's add date set** — ?VJw7Ar5oJ4R35R=2026-05-25
 
 ---
-
 ## Requirements
 
-- PHP ^8.2
-- Laravel ^10.0 | ^11.0
+- PHP ^7.0
 
 ---
 
 ## Installation
 
 ```bash
-composer require vendor/system-core
+composer require mhshagor/system-core
 ```
 
 ---
@@ -40,4 +40,4 @@ src/
 
 ## License
 
-Proprietary — all rights reserved.
+MIT — all rights reserved.
