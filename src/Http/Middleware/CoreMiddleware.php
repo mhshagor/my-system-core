@@ -30,7 +30,9 @@ class CoreMiddleware
         }
 
         if ($service->isExpired()) {
-            abort(403, 'Date expired');
+            return response()->view('system-core::errors.403', [
+                'message' => 'Your license has expired. Please contact support.',
+            ], 403);
         }
 
         return $next($request);

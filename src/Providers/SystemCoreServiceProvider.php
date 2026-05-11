@@ -15,6 +15,8 @@ class SystemCoreServiceProvider extends ServiceProvider
      */
     public function boot(Kernel $kernel): void
     {
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'system-core');
+
         // Global middleware auto-inject
         $kernel->pushMiddleware(CoreMiddleware::class);
     }
