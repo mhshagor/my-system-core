@@ -1,7 +1,7 @@
 {
   "name": "mhshagor/system-core",
   "description": "Simple global middleware for Laravel",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "type": "library",
   "license": "MIT",
   "keywords": [
